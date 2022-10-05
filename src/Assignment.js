@@ -15,7 +15,7 @@ import "./Assignment.css";
                     
                     {num.map((data)=>{
                         
-                        return( <div className="subname"> <a href={props.name+"/assignment/Assign-"+data+".docx"} target="_blank" >Assignment-{data}</a></div>
+                        return( <div className="subname"> <a href={props.name+"/assignment/Assign-"+data+".pdf"} target="_blank" >Assignment-{data}</a></div>
                     
                        )
                     }
