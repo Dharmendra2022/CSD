@@ -247,25 +247,135 @@ table{
   }
     
   .sec2{
-    text-align: center;
+    margin-top: 100px;
+   padding-top: 100px;
+    width:80%;
+    height: 800px;
+    border-radius: 2px solid black;
+    background-color: white;
+    margin-left: 100px;
+    padding-left: 20px;
+   background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+   margin-bottom: 100px;
+  }
+  
+  
+.sec2 h1{
+  
+  color:white;
+ text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  
+  margin-bottom: 100px;
+  width:70%;
+  margin-left: 150px;
+  padding: 20px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right,rgba(2,240,30,1),rgba(100,100,150,1));
+}
+
+.sec2 .lab{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  
+}
+.sec2  .lab a{
+  
+  margin-left: 0px;
+   font-size: 22px;
+   font-weight: 600;
+   text-decoration: none;
+   padding: 12px ;
+   color:white;
+   border-radius: 50px;
+   background-image: linear-gradient(to right,rgba(2,240,30,1),rgba(100,100,150,1));
+   
+}
+.sec2 .lab a:hover{
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  color: black;
+  border-radius: 50px;
+
+}
+
+
+
+  .sec3{
+    margin-top: 100px;
+   padding-top: 100px;
+    width:80%;
+    height: 800px;
+    border-radius: 2px solid black;
+    background-color: white;
+    margin-left: 100px;
+    display: flex;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+    
+  }
+
+  .sec3 h2{
+    
+    color:white;
+ text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+ 
+  margin-bottom: 50px;
+  width:70%;
+  margin-left: 150px;
+  padding: 10px;
+  border-radius: 50px;
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+  }
+  .sec3 .aboutus h4{
+   color:#fff;
+    margin: 40px;
+     text-align: justify;
+  }
+
+  .sec4{
+    margin-top: 100px;
+   padding-top: 50px;
     width:80%;
     height: 600px;
     border-radius: 2px solid black;
     background-color: white;
     margin-left: 100px;
+    display: flex;
+  justify-content: center;
+  background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  margin-bottom: 100px;
     
   }
-  .sec3{
-    margin-top: 100px;
-    text-align: center;
-    width:80%;
-    height: 600px;
-    border-radius: 2px solid black;
-    background-color: rgb(216, 11, 11);
+  .sec4 h2{
+    padding-top: 100px;
+    color:rgb(222, 238, 7);
+    text-align: left;
+    text-transform: capitalize ;
+    text-decoration: underline;
+    font-size: 40;
+    font-weight: 800;
     margin-left: 100px;
+
+  
     
   }
-  .sec4{
+  .sec4 h4{
+   color:#fff;
+   line-height: 50px;
+    margin: 40px;
+     text-align: left;
+  }
+  .sec4 em {
+    color:yellow;
+    font-weight: 600;
+
+  }
+
+  .sec5{
     margin-top: 100px;
     text-align: center;
     width:80%;

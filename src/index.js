@@ -51,6 +51,7 @@ root.render(
           <Route path="/Database_aktu" element={<Aktuques name="Database Management System" />} />
           <Route path="/Database_sess" element={<Sessional name="Database" />} />
           <Route path="/Database/sesstype/:year" element={<Sesstype name="Database Management System"   />} />
+          <Route path="/Database_mcq" element={<Mcq name="Database Management System" />} />
 
           <Route path="/algorithm_layout" element={<Layout name="Algorithm" />} />
           <Route path="/algorithm_ppt" element={<Subject name="Design and Analysis of Algorithm" />} />
@@ -59,7 +60,8 @@ root.render(
           <Route path="/algorithm_aktu" element={<Aktuques name="Design and Analysis of Algorithm" />} />
           <Route path="/algorithm_sess" element={<Sessional name="Algorithm" />} />
           <Route path="/algorithm/sesstype/:year" element={<Sesstype name="Design and Analysis of Algorithm"   />} />
-
+          <Route path="/Algorithm_mcq" element={<Mcq name="Design and Analysis of Algorithm" />} />
+          
           <Route path="/gate_ques" element={<Gate  />} /> 
         </Routes>
   </Router>

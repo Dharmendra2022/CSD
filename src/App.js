@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from "prop-types"
 import "./App.css"
+
 import Subject from './components/Subject';
 import {Link} from "react-router-dom";
 import Img from "./image1.jpg"
@@ -32,13 +33,13 @@ import "./tt.css"
         </div>
 
         <div className='button'>
-          <a href="#" >Faculties </a>
+          <a href="#s2" >Lab Manual </a>
         </div>
         <div className='button'>
-          <a href="#" >Aboutus </a>
+          <a href="#s3" >Aboutus </a>
         </div>
         <div className='button'>
-          <a href="#" >Contact us </a>
+          <a href="#s4" >Contact us </a>
         </div>
 
         </div>
@@ -64,10 +65,10 @@ import "./tt.css"
         </div>
         
         <div className='button2'>
-          <Link to={"/datastructure_layout"} >Data Structure</Link>
+          <Link to={"/datastructure_layout"} style={{pointerEvents: "none"}} >Data Structure</Link>
         </div>
         <div className='button2'>
-          <Link to={"/machine_layout"} >Machine Learning</Link>
+          <Link to={"/machine_layout"} style={{pointerEvents: "none"}} >Machine Learning</Link>
         </div>
         </div>
 
@@ -83,29 +84,104 @@ import "./tt.css"
                 <Link to={"/gate_ques" }>GATE Previous Year Question Papers </Link>
             </div>
             <div className='button2'>
-                <Link to={"/automata_layout" }>Infosys Recruitment Question Papers</Link> 
+                <Link to={"/automata_layout" } style={{pointerEvents: "none"}}>Infosys Recruitment Question Papers</Link> 
             </div>
             <div className='button2'>
-                <Link to={"/dbms_layout"} >TCS Recuritment Question Papers</Link>
+                <Link to={"/dbms_layout"} style={{pointerEvents: "none"}} >TCS Recuritment Question Papers</Link>
             </div>
         
         </div> 
       </div>
 
-      <div className='sec2'>
-        <h2>
-          Section2
-        </h2>
+      <div className='sec2' id="s2">
+                  
+                      <h1>Lab Manual </h1>
+
+                
+                   <div className='lab'>
+                  
+                   <div>
+                        <a href={"/Lab Manual/DBMS.pdf"} target="_blank" >DATABASE </a>
+                   </div> 
+                   <div>
+                        <a href={"/Lab Manual/Algorithm.pdf"} target="_blank" >ALGORITHM </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/DS.pdf"} target="_blank" >DATA STRUCTURE </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/Webtech.pdf"} target="_blank" >WEB TECHNOLOGY </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/python.pdf"} target="_blank" >PYTHON PROGRAMMING</a>
+                   </div> 
+                   <div>
+                        <a href={"/Lab Manual/c-pro.pdf"} target="_blank" >C PROGRAMMING </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/discrete.pdf"} target="_blank" >DISCRETE STRUCTURE </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/Compiler.pdf"} target="_blank" >COMPILER DESIGN </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/dld.pdf"} target="_blank" >DIGITAL LOGIC </a>
+                   </div> 
+                   <div>
+                        <a href={"/Lab Manual/cn.pdf"} target="_blank" >COMPUTER NETWORK </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/co.pdf"} target="_blank" >COMPUTER ORGANIZATIN </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/se.pdf"} target="_blank" >SOFTWARE ENGINEERING </a>
+                   </div>
+                   <div>
+                        <a href={"/Lab Manual/se.pdf"} target="_blank" >OPERATING SYSTEM </a>
+                   </div>
+                   
+                      
+                        
+                        
+                        </div>    
+                       
+                          
+
+                   
+                  
+                      
+                   
+                
+
       </div>
-      <div className='sec3'>
-        <h2>
-          Section3
-        </h2>
+      <div className='sec3' id="s3">
+        <div className="aboutus">
+        <h2>AboutUs</h2>
+        <h4>
+        Dharmendra Kumar is currently working as Associate Professor at the Department of
+Computer Science and Engineering, United College of Engineering and Research, Prayagraj, India and pursuing Ph. D. at Dr. A.P.J. Abdul Kalam Technical University, Uttar
+Pradesh, Lucknow, India. He received his M. Tech. degree in Software Engineering
+from Motilal Nehru National Institute of Technology Allahabad, Prayagraj in 2008, and
+M.Sc. degree in Software Engineering from University of Allahabad, Prayagraj, India
+in 2001. He is teaching at the United College of Engineering and Research, Prayagraj,
+India for about 20 Years. He has taught many core subject papers such as ”Computer Network”, ”Design and Analysis of Algorithms”, ”Data Structure”, ”Database Management
+System” and etc. of computer science during his teaching period. His research interests
+include Peer-to-Peer Networks, Computer Networks and Machine Learning. The author
+has published papers in International Journals including Springer and Inderscience. He is
+a NET-qualified scholar. He is also qualified GATE Entrance Examination with rank 573
+in 2018.
+        </h4>
+        </div>
       </div>
-      <div className='sec4'>
-        <h2>
-          How can we learn ?
-        </h2>
+      <div className='sec4' id="s4">
+        <div>
+        <h2>ContactUs</h2><br></br>
+        <h4>
+          <em>Name:</em> Dharmendra Kumar<br></br>
+          <em>E-mail:</em> kumar.dharmendra@rediffmail.com<br></br>
+          <em>Mobile No.:</em> 9839047904
+        </h4>
+        </div>
       </div>
 
 </div>

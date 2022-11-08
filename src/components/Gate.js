@@ -15,7 +15,7 @@ import "./aktuques.css";
                     
                     {num.map((data)=>{
                         
-                        return( <div className="subname"> <a href={"/Gate/"+data+".pdf"} target="_blank" >Year-{data}</a></div>
+                        return( <div className="subname"> <a href={"/gate_ques/"+data+".pdf"} target="_blank" >Year-{data}</a></div>
                     
                        )
                     }

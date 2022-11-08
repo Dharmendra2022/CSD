@@ -14,7 +14,7 @@ import "./notes.css";
                     
                     {num.map((data)=>{
                         
-                        return( <div className="subname"> <a href={props.name+"/mcqs/Unit-"+data+".docx"} target="_blank" >Unit-{data}</a></div>
+                        return( <div className="subname"> <a href={props.name+"/mcqs/Set-"+data+".pdf"} target="_blank" >Set-{data}</a></div>
                     
                        )
                     }
